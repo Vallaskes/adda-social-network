@@ -1,0 +1,24 @@
+@import "../../../css/defaultColor";
+
+.selectBlock {
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+
+  &:after{
+    content: '';
+    right: 5px;
+    top: 10px;
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    border-bottom: 1px solid $grey;
+    border-right: 1px solid $grey;
+    transform: rotate(45deg);
+  }
+
+  select {
+    width: 100%;
+    padding: 5px 10px;
+  }
+}

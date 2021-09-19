@@ -1,0 +1,99 @@
+@import "../../../../css/icon";
+
+.link {
+  padding: 20px 0;
+  cursor: pointer;
+  font-weight: 700;
+
+  &:hover {
+    color: #dc4734;
+  }
+}
+
+.notificationDropdown {
+  position: absolute;
+  width: 500px;
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, .2);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: .3s;
+
+  &[data-dropdown="visible"] {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+}
+
+.notificationHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.iconSetting {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+
+  &:after,
+  &:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .4s;
+  }
+
+  &:after {
+    background: $setting center no-repeat;
+  }
+
+  &:before {
+    background: $settingRed center no-repeat;
+    opacity: 0;
+  }
+
+  &:hover {
+    &:after {
+      opacity: 0;
+    }
+
+    &:before {
+      opacity: 1;
+    }
+  }
+}
+
+.notificationTitle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  color: #333;
+  text-transform: capitalize;
+}
+
+.notificationFooter {
+  display: flex;
+  justify-content: space-between;
+  
+  a {
+    font-size: 12px;
+
+    &:hover {
+      color: #dc4734;
+      text-decoration: underline;
+    }
+  }
+}

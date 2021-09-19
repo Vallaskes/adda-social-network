@@ -1,0 +1,26 @@
+.notificationItem {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 45px 1fr 100px;
+  align-items: center;
+  gap: 10px;
+}
+
+.userAvatar {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 45px;
+  height: 45px;
+}
+
+.message {
+  font-size: 13px;
+}
+
+.messageTime {
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+}

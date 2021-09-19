@@ -1,0 +1,31 @@
+.profileDropdown {
+  position: absolute;
+  width: 250px;
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, .2);
+  opacity: 0;
+  pointer-events: none;
+  top: calc(100% + 13px);
+  transform: translateY(10px);
+  transition: .3s;
+  right: 0;
+
+  &[data-dropdown="visible"] {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+}
+
+.buttonModal {
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.profileSetting {
+  position: relative;
+}

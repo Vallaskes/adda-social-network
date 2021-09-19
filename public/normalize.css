@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #dc4734;
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Jura', sans-serif;
+    font-family: 'Alumni Sans', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    background: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    width: 100%;
+    overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    background-color: transparent;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul, ol {
+    padding-inline-start: 30px;
+    margin: 15px 0;
+}
+
+h1 {
+    font-size: 1.75rem;
+    margin: 1em 0;
+    line-height: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 2rem 0;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 1.25rem 0;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: .875rem;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: .67rem;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 600;
+}

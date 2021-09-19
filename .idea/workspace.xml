@@ -2,8 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4047fc00-e192-42ad-a3e7-33b8e56a00b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form/button/button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form/button/button.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form/button/button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form/labelInput/labelInput.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form/labelInput/labelInput.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form/labelInput/labelInput.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form/select/select.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form/select/select.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form/select/select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/nav/message/messageItem/messageItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/nav/message/messageItem/messageItem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/nav/message/messageModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/nav/message/messageModal.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/nav/nav.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/nav/notification/notification.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/nav/notification/notificationItem/notificationItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/nav/notification/notificationItem/notificationItem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/nav/notification/notificationModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/profileSetting/profileSetting.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/profileSetting/profileSetting.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/home/home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/home/home.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/profile/profile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sidebar/sidebarLeft/sidebarLeft.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sidebar/sidebarRight/sidebarRight.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/signUp/loginModule/login.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/signUp/loginModule/loginModule.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/signUp/registerModule/register.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/signUp/registerModule/registerModule.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/signUp/signUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/defaultColor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/signup/adda-timeline.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/signup/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +59,15 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,11 +84,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/sidebar" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vallaskes\PhpstormProjects\adda\src\components\sidebar" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vallaskes\PhpstormProjects\adda\src\components\main\home" />
+      <recent name="C:\Users\Vallaskes\PhpstormProjects\adda\src\components\main\profile" />
+      <recent name="C:\Users\Vallaskes\PhpstormProjects\adda\src\components\form\labelInput" />
+      <recent name="C:\Users\Vallaskes\PhpstormProjects\adda\src\components\signUp" />
+      <recent name="C:\Users\Vallaskes\PhpstormProjects\adda\src\image" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -62,37 +129,70 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631449779305</updated>
-      <workItem from="1631449784963" duration="571000" />
+      <workItem from="1631449784963" duration="19033000" />
+      <workItem from="1631588355205" duration="37065000" />
+      <workItem from="1631767464735" duration="5734000" />
+      <workItem from="1631803083012" duration="1228000" />
+      <workItem from="1631867166973" duration="45094000" />
     </task>
+    <task id="LOCAL-00001" summary="add module npm-sass and react-router-dom. use browser router in index.js">
+      <created>1631450463632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631450463632</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add module npm-sass and react-router-dom. use browser router in index.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add module npm-sass and react-router-dom. use browser router in index.js" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1631450106182">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1631450461792">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1631450106182" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1631450106182">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1631450461792" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1631867259284">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1631450106182" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1631450106181">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1631867259284" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1631520421266" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1631867259283">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1631450106181" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1631450106182">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1631867259283" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1631520421265" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1631867259282">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1631450106182" />
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1631449785007">
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1631867259282" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1631520421265" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1631867259283">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1631449785007" />
-    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1631450369339">
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1631867259283" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1631520421266" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1631867166952">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1631450369339" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1631867166952" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1631588375240" />
+    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1632049027157">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1632049027157" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1631872627257">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1631872627257" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1631970919992">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1631970919992" />
   </component>
 </project>
