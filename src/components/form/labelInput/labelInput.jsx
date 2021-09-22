@@ -12,10 +12,12 @@ window.addEventListener('DOMContentLoaded', () => {
     if (i) f.push.apply(f, i);
     if (t) f.push.apply(f, t);
 
-    f.forEach(input => {
-        input.addEventListener("focus", () => input.parentNode.querySelector('label').classList.add(addStyleFocus));
-        input.addEventListener("blur", () => {if(input.value === "") input.parentNode.querySelector('label').classList.remove(addStyleFocus)});
-    });
+    if (!document.querySelectorAll('input[type="search"]')) {
+        f.forEach(input => {
+            input.addEventListener("focus", () => input.parentNode.querySelector('label').classList.add(addStyleFocus));
+            input.addEventListener("blur", () => {if(input.value === "") input.parentNode.querySelector('label').classList.remove(addStyleFocus)});
+        });
+    }
 
     function setCursorPosition(pos, elem) {
         elem.focus();

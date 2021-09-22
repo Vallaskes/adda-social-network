@@ -16,7 +16,7 @@ const Header = (prors) => {
                 </div>
                 <div className={style.searchHeader}>
                     <form className={style.search}>
-                        <input type="search"/>
+                        <input type="search" placeholder="Search" />
                         <button className={style.buttonSearch}/>
                     </form>
                     <ProfileSetting/>

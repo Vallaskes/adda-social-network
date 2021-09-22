@@ -1,6 +1,8 @@
 import style from "./profileSetting.module.scss";
 import {Link} from "react-router-dom";
 import React from "react";
+import {ProfileItem, ProfileLinkItem} from "./profileItem/profileItem";
+import styleProfile from "./profileItem/profileItem.module.scss";
 
 const dropdownSetting = (e) => {
     let dm = e.target.parentNode.parentNode.querySelector('div[data-dropdown]').dataset.dropdown;
@@ -11,39 +13,70 @@ const dropdownSetting = (e) => {
     }
 };
 
+let data = {
+    profileName: 'Madison Howard',
+    profileLink: '#',
+    profileImage: 'https://template.hasthemes.com/adda/adda/assets/images/profile/profile-midle-1.jpg',
+    profileEmail: 'mailnam@mail.com',
+    profileItem: [
+        {
+            linkItem: [
+                {
+                    link: '#',
+                    icon: `${styleProfile.profileIcon}`,
+                    title: 'Profile',
+                },
+                {
+                    link: '#',
+                    icon: `${styleProfile.inboxIcon}`,
+                    title: 'Inbox',
+                },
+                {
+                    link: '#',
+                    icon: `${styleProfile.activityIcon}`,
+                    title: 'Activity',
+                },
+            ],
+        },
+        {
+            linkItem: [
+                {
+                    link: '#',
+                    icon: `${styleProfile.settingIcon}`,
+                    title: 'Setting',
+                },
+                {
+                    link: '#',
+                    icon: `${styleProfile.singOutIcon}`,
+                    title: 'Sing out',
+                },
+            ],
+        },
+    ],
+};
+
+let prfItm = data.profileItem.map(e =>
+    <ProfileItem pli={e.linkItem.map(i =>
+            <ProfileLinkItem link={i.link} icon={i.icon} title={i.title} />
+        )}
+    />
+);
+
 const ProfileSetting = (props) => {
     return (
         <div className={style.profileSetting}>
             <div onClick={dropdownSetting} className={style.buttonModal}>
-                <img src="https://template.hasthemes.com/adda/adda/assets/images/profile/profile-midle-1.jpg" alt="user image"/>
+                <img src={data.profileImage} alt={`${data.profileName} avatar`} />
             </div>
             <div data-dropdown="hidden" className={style.profileDropdown}>
-                <div className="profileHead">
+                <div className={style.profileHead}>
                     <h6>
-                        <Link to="/">Madison Howard</Link>
+                        <Link to={data.profileLink}>{data.profileName}</Link>
                     </h6>
-                    <p className="mail">mailnam@mail.com</p>
+                    <p className={style.mail}>{data.profileEmail}</p>
                 </div>
                 <div className="profileBody">
-                    <ul>
-                        <li>
-                            <Link to="/"><span className="icon profileIcon"/> Profile</Link>
-                        </li>
-                        <li>
-                            <Link to="/"><span className="icon inboxIcon"/> Inbox</Link>
-                        </li>
-                        <li>
-                            <Link to="/"><span className="icon ActivityIcon"/> Activity</Link>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <Link to="/"><span className="icon settingIcon"/> Setting</Link>
-                        </li>
-                        <li>
-                            <Link to="/"><span className="icon singOutIcon"/> Sing out</Link>
-                        </li>
-                    </ul>
+                    {prfItm}
                 </div>
             </div>
         </div>

@@ -1,7 +1,8 @@
+@import "../../../css/defaultColor";
+
 .profileDropdown {
   position: absolute;
   width: 250px;
-  padding: 15px;
   background: #fff;
   box-shadow: 0 0 8px 1px rgba(0, 0, 0, .2);
   opacity: 0;
@@ -28,4 +29,22 @@
 
 .profileSetting {
   position: relative;
+}
+
+.profileHead {
+  padding: 15px;
+
+  h6 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+
+    &:hover {
+      color: $red;
+    }
+  }
+}
+
+.mail {
+  font-size: 13px;
 }
