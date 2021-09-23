@@ -10,4 +10,19 @@
   &:hover {
     background: $black;
   }
+
+  &.white {
+    color: $red;
+    background: $whiteLight;
+  }
+
+  &.red {
+    background: $red;
+    color: $whiteLight;
+  }
+
+  &.full {
+    width: 100%;
+    font-weight: 600;
+  }
 }

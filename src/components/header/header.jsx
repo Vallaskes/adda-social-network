@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import HeaderNav from "./nav/nav";
 import ProfileSetting from "./profileSetting/profileSetting";
 
-const Header = (prors) => {
+const Header = () => {
     return (
         <header className={style.header}>
             <div className={style.wrapper}>

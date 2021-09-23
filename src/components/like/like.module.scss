@@ -1,0 +1,22 @@
+@import "src/css/icon";
+
+.heart {
+  width: 20px;
+  height: 20px;
+  background-image: $heartNone;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  transform: translateY(25%);
+  margin-right: 10px;
+  cursor: pointer;
+
+  &.active {
+    background-image: $heart;
+  }
+
+  &:hover {
+    background-image: $heart;
+  }
+}

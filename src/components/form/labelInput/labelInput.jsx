@@ -1,23 +1,24 @@
-import React from "react";
 import style from './labelInput.module.scss';
-import './labelInput.scss';
-
-const addStyleFocus = `${style.inputFocus}`;
+import React from "react";
 
 window.addEventListener('DOMContentLoaded', () => {
-    let i = document.querySelectorAll("input");
-    let t = document.querySelectorAll("textarea");
+    let i = document.querySelectorAll('input[type="text"]');
+    let p = document.querySelectorAll('input[type="password"]');
+    let t = document.querySelectorAll('input[type="tel"]');
+    let e = document.querySelectorAll('input[type="email"]');
+    let ta = document.querySelectorAll('textarea');
     let f = [];
 
     if (i) f.push.apply(f, i);
+    if (p) f.push.apply(f, p);
+    if (e) f.push.apply(f, e);
     if (t) f.push.apply(f, t);
+    if (ta) f.push.apply(f, t);
 
-    if (!document.querySelectorAll('input[type="search"]')) {
-        f.forEach(input => {
-            input.addEventListener("focus", () => input.parentNode.querySelector('label').classList.add(addStyleFocus));
-            input.addEventListener("blur", () => {if(input.value === "") input.parentNode.querySelector('label').classList.remove(addStyleFocus)});
-        });
-    }
+    f.forEach(input => {
+        input.addEventListener("focus", () => input.parentNode.querySelector('label').classList.add(style.inputFocus));
+        input.addEventListener("blur", () => {if(input.value === "") input.parentNode.querySelector('label').classList.remove(style.inputFocus)});
+    });
 
     function setCursorPosition(pos, elem) {
         elem.focus();
@@ -55,11 +56,11 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-const LabelInput = (props) => {
+const LabelInput = ({color, className, htmlFor, type = 'text', text, half = null, ...props}) => {
     return (
-        <div className={`${props.className} ${style.labelInput}`}>
-            <input id={props.htmlFor} type={props.type}/>
-            <label htmlFor={props.htmlFor}>{props.text}</label>
+        <div className={`${style.labelInput} ${style[color]} ${half ? style.half : ''} ${className}`}>
+            <label htmlFor={htmlFor}>{text}</label>
+            <input id={htmlFor} type={type} {...props} />
         </div>
     )
 };

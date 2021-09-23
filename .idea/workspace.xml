@@ -2,17 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4047fc00-e192-42ad-a3e7-33b8e56a00b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/header/profileSetting/profileItem/profileItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/profileSetting/profileItem/profileItem.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/postItem/postItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/postItem/postItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/nav/nav.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/like/like.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/like/like.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/sharePost/sharePost.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/sharePost/sharePost.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/button/button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/button/button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/button/button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/button/button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/button/button.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/form/labelInput/labelInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/labelInput/labelInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/labelInput/labelInput.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/labelInput/labelInput.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/labelInput/labelInput.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/select/select.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/select/select.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/select/select.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/select/select.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/select/select.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/nav/nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/nav/nav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/nav/notification/notification.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/nav/notification/notification.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/nav/notification/notificationModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/nav/notification/notificationModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/profileSetting/profileItem/profileItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/profileSetting/profileItem/profileItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/profileSetting/profileSetting.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/profileSetting/profileSetting.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/profileSetting/profileSetting.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/profileSetting/profileSetting.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/home/home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/home/home.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/home/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/home/home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/postItem/postItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/postItem/postItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/postItem/postItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/postItem/postItem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/signUp/loginModule/loginModule.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/signUp/loginModule/loginModule.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/signUp/registerModule/register.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/signUp/registerModule/register.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/signUp/registerModule/registerModule.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/signUp/registerModule/registerModule.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/icon.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +120,7 @@
       <workItem from="1631803083012" duration="1228000" />
       <workItem from="1631867166973" duration="56449000" />
       <workItem from="1632234166571" duration="17428000" />
-      <workItem from="1632321439356" duration="1304000" />
+      <workItem from="1632321439356" duration="40589000" />
     </task>
     <task id="LOCAL-00001" summary="add module npm-sass and react-router-dom. use browser router in index.js">
       <created>1631450463632</created>
@@ -117,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632049071955</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="22.09.2021">
+      <created>1632330111524</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632330111524</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,12 +152,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add module npm-sass and react-router-dom. use browser router in index.js" />
     <MESSAGE value="19.09.2021 13:57" />
-    <option name="LAST_COMMIT_MESSAGE" value="19.09.2021 13:57" />
+    <MESSAGE value="22.09.2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="22.09.2021" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1632049068114">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="-958" y="78" key="CommitChangelistDialog2" timestamp="1632330109733">
+      <screen x="-1280" y="0" width="1280" height="994" />
     </state>
+    <state x="-958" y="78" key="CommitChangelistDialog2/0.0.1366.738/-1280.0.1280.994@-1280.0.1280.994" timestamp="1632330109733" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1632049068114" />
     <state x="317" y="147" key="EditFileWatcherDialog" timestamp="1632309089834">
       <screen x="0" y="0" width="1366" height="738" />
@@ -141,25 +169,25 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1632249649221" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1632321338370">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1632417616125">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1632321338370" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1632417616125" />
     <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1631520421266" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1632321338369">
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1632417616125">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1632321338369" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1632417616125" />
     <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1631520421265" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1632321338366">
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1632417616124">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1632321338366" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1632417616124" />
     <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1631520421265" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1632321338370">
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1632417616125">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1632321338370" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1632417616125" />
     <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1631520421266" />
     <state x="184" y="11" key="SettingsEditor" timestamp="1632321311754">
       <screen x="0" y="0" width="1366" height="738" />
@@ -170,18 +198,18 @@
     </state>
     <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1632322331433" />
     <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1631588375240" />
-    <state x="-819" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1632329491830">
-      <screen x="-1280" y="0" width="1280" height="994" />
+    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1632440864592">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="-819" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738/-1280.0.1280.994@-1280.0.1280.994" timestamp="1632329491830" />
-    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1632049027157" />
-    <state x="339" y="165" key="run.anything.popup" timestamp="1632258604276">
+    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1632440864592" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1632394879284">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="339" y="165" key="run.anything.popup/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1632258604276" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1631970919992">
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1632394879284" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1632417483398">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1631970919992" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1632417483398" />
   </component>
 </project>

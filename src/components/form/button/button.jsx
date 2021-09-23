@@ -1,11 +1,10 @@
 import React from "react";
 import style from "./button.module.scss";
-import "./button.scss"
 
-const Button = (props) => {
+const Button = ({className, text, color, full = null}) => {
     return (
-        <button className={`${props.className} ${style.button}`}>
-            {props.text}
+        <button className={`${style.button} ${style[color]} ${full ? style.full : ''} ${className}`}>
+            {text}
         </button>
     )
 };

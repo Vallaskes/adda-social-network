@@ -1,5 +1,5 @@
 import React from "react";
-import style from "../header.module.scss";
+import style from "./nav.module.scss";
 import {Link} from "react-router-dom";
 import MessageModal from "./message/messageModal";
 import NotificationModal from "./notification/notificationModal";

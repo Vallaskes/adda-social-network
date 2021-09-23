@@ -56,13 +56,13 @@ let data = {
 };
 
 let prfItm = data.profileItem.map(e =>
-    <ProfileItem pli={e.linkItem.map(i =>
-            <ProfileLinkItem link={i.link} icon={i.icon} title={i.title} />
+    <ProfileItem key={e} pli={e.linkItem.map(i =>
+            <ProfileLinkItem key={i} link={i.link} icon={i.icon} title={i.title} />
         )}
     />
 );
 
-const ProfileSetting = (props) => {
+const ProfileSetting = () => {
     return (
         <div className={style.profileSetting}>
             <div onClick={dropdownSetting} className={style.buttonModal}>
@@ -75,7 +75,7 @@ const ProfileSetting = (props) => {
                     </h6>
                     <p className={style.mail}>{data.profileEmail}</p>
                 </div>
-                <div className="profileBody">
+                <div>
                     {prfItm}
                 </div>
             </div>

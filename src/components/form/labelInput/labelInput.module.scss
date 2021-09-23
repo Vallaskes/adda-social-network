@@ -31,4 +31,21 @@
     background: none;
     color: $whiteLight;
   }
+
+  &.grey {
+    input {
+      color: $grey;
+      border-bottom: 1px solid $grey;
+    }
+
+    label {
+      color: $grey;
+    }
+  }
+
+  &.half {
+    max-width: 47%;
+    width: 100%;
+    display: inline-block;
+  }
 }

@@ -6,61 +6,66 @@
   grid-template-columns: 1fr 1fr;
   align-items: stretch;
   align-self: center;
-}
 
-.registerDescription {
-  padding: 0 30px;
-  display: flex;
-  align-items: center;
-  background-position: center;
+  .registerDescription {
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    background-position: center;
 
-  h3 {
-    font-size: 1.625rem;
-    color: $whiteLight;
-    text-align: center;
+    h3 {
+      font-size: 1.625rem;
+      color: $whiteLight;
+      text-align: center;
+    }
   }
-}
 
-.registerBlock {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0 30px;
-}
+  .registerBlock {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
 
-.h1 {
-  font-size: 30px;
-  margin-bottom: 50px;
-  color: $red;
-}
+    .h1 {
+      font-size: 30px;
+      margin-bottom: 50px;
+      color: $red;
+    }
 
-.formWindow {
-  box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .25);
-  max-width: 580px;
-  margin: 0 auto;
-}
+    .formWindow {
+      box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .25);
+      max-width: 580px;
+      margin: 0 auto;
 
-.formTitle {
-  padding: 20px 0;
-  background: $red;
-  color: $whiteLight;
-  text-align: center;
-  font-size: 18px;
+      .formTitle {
+        padding: 20px 0;
+        background: $red;
+        color: $whiteLight;
+        text-align: center;
+        font-size: 18px;
 
-  h3 {
-    margin: 0;
+        h3 {
+          margin: 0;
+        }
+      }
+
+      .registerForm {
+        padding: 50px;
+
+        .marginRight {
+          margin-right: 4%;
+        }
+
+        .agreement {
+          text-align: center;
+          font-weight: bold;
+          margin-top: 30px;
+
+          .redText {
+            color: $red;
+          }
+        }
+      }
+    }
   }
-}
-
-.registerForm {
-  padding: 50px;
-}
-.agreement {
-  text-align: center;
-  font-weight: bold;
-  margin-top: 30px;
-}
-
-.redText {
-  color: $red;
 }

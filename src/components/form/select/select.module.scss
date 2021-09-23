@@ -21,4 +21,20 @@
     width: 100%;
     padding: 5px 10px;
   }
+
+  &.grey {
+    select {
+      color: $grey;
+      border-bottom: 1px solid $grey;
+    }
+
+    option {
+      color: $grey;
+    }
+  }
+
+  &.half {
+    width: 48%;
+    display: inline-block;
+  }
 }

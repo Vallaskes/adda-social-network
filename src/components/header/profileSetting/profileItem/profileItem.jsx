@@ -2,20 +2,20 @@ import React from "react";
 import {Link} from "react-router-dom";
 import style from "./profileItem.module.scss";
 
-const ProfileLinkItem = (props) => {
+const ProfileLinkItem = ({ link, icon, title}) => {
     return (
         <li className={style.linkItem}>
-            <Link to={props.link}>
-                <span className={`${style.icon} ${props.icon}`} /> {props.title}
+            <Link to={link}>
+                <span className={`${style.icon} ${icon}`} /> {title}
             </Link>
         </li>
     )
 };
 
-const ProfileItem = (props) => {
+const ProfileItem = ({pli}) => {
     return (
         <ul className={style.profileItem}>
-            {props.pli}
+            {pli}
         </ul>
     )
 };

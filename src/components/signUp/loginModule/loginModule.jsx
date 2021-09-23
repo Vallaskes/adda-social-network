@@ -11,31 +11,6 @@ let j = {
     description: 'It’s helps you to connect and share with the people in your life',
 };
 
-let loginDada = [
-    {
-        className: 'email',
-        htmlFor: 'labelEmail',
-        text: 'Email',
-        type: 'email',
-    },
-    {
-        className: 'password',
-        htmlFor: 'labelPassword',
-        text: 'Password',
-        type: 'password',
-    }
-];
-
-let inputMap = loginDada.map(e =>
-    <LabelInput
-        className={e.className}
-        htmlFor={e.htmlFor}
-        text={e.text}
-        type={e.type}
-    />
-);
-
-
 
 const LoginModule = (props) => {
     return (
@@ -48,7 +23,16 @@ const LoginModule = (props) => {
             </div>
             <div className={style.loginBlock}>
                 <form className="loginForm" action="/">
-                    {inputMap}
+                    <LabelInput
+                        htmlFor="labelEmail"
+                        text="Email"
+                        type="email"
+                    />
+                    <LabelInput
+                        htmlFor="labelPassword"
+                        text="Password"
+                        type="password"
+                    />
                     <Button className="white" text="Login"/>
                 </form>
             </div>

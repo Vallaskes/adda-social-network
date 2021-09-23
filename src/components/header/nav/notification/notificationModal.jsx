@@ -1,5 +1,4 @@
 import React from "react";
-//import style from "../../header.module.scss";
 import {Link} from "react-router-dom";
 import style from "./notification.module.scss";
 import NotificationItem from "./notificationItem/notificationItem";
