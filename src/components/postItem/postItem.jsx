@@ -46,7 +46,7 @@ const PostItem = ({userAvatar, userName, time, postContent, uLike, qLike, like, 
             </div>
             <footer className={style.articleFooter}>
                 <div className={style.footerLink}>
-                    <Like uLike={uLike} active="active"/>
+                    <Like uLike={uLike} />
                     {like ? `${uLike ? 'You and' : ''} ${qLike} people like this` : `No likes`}
                 </div>
                 <div className={style.ch}>

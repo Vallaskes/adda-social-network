@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/adda.iml" filepath="$PROJECT_DIR$/.idea/adda.iml" />
+      <module fileurl="file://C:/OpenServer/domains/wild.loc/.idea/wild.loc.iml" filepath="C:/OpenServer/domains/wild.loc/.idea/wild.loc.iml" />
     </modules>
   </component>
 </project>

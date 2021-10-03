@@ -1,0 +1,32 @@
+@import "../../../../css/defaultColor";
+
+.paddingBlock {
+  padding: 30px;
+}
+
+.titleBlock {
+
+  h3 {
+    display: block;
+    margin: 0 0 40px;
+    position: relative;
+    padding-bottom: 10px;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 30px;
+      height: 1px;
+      background: $red;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+  }
+}
+
+.imgBlock {
+  img {
+    width: 100%;
+  }
+}

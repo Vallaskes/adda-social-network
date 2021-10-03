@@ -1,0 +1,11 @@
+.homePage {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: minmax(200px, 300px) minmax(450px, 600px) minmax(200px, 300px);
+  max-width: 1200px;
+  margin: 20px auto 0;
+}
+
+.sidebarPos {
+  margin-top: 130px;
+}

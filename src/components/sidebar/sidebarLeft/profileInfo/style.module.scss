@@ -1,0 +1,72 @@
+@import "src/css/defaultColor";
+@import "src/css/icon";
+
+.paddingBlock {
+  padding: 30px;
+}
+
+.titleBlock {
+
+  h3 {
+    display: block;
+    margin: 0 0 40px;
+    position: relative;
+    padding-bottom: 10px;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 30px;
+      height: 1px;
+      background: $red;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+  }
+}
+
+.description {
+  margin: 0 0 40px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@mixin iconInfo($icon) {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+
+  &:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: $icon;
+  }
+}
+
+.work {
+  @include iconInfo($work);
+}
+
+.home {
+  @include iconInfo($home);
+}
+
+.position {
+  @include iconInfo($location);
+}
+
+.interesting {
+  @include iconInfo($heartFR);
+}
