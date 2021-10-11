@@ -84,16 +84,16 @@ const dropdownMenu = (e) => {
     }
 };
 
-const MessageModal = (props) => {
+const MessageModal = ({textBtn, text}) => {
     return (
         <div className={style.messageModal}>
             <div onClick={dropdownMenu} className={style.link}>
-                {props.textBtn}
+                {textBtn}
             </div>
             <div data-dropdown="hidden" className={style.messageDropdown}>
                 <div className={style.messageHeader}>
                     <div className={style.messageTitle}>
-                        {props.text}
+                        {text}
                     </div>
                     <div className={style.messageSetting}>
                         {msgStgL}

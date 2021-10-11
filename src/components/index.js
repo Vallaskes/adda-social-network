@@ -1,16 +1,19 @@
 import React from "react";
 import Header from "./header/header";
 import Home from "./main/home/home";
-import Footer from "./footer/footer";
 import Profile from "./main/profile/profile";
+import {Route} from "react-router-dom";
 
 const Index = () => {
     return (
-        <div className={`siteContainer`}>
+        <div style={{marginBottom: '50px'}} className={`siteContainer`}>
             <Header/>
-            {/*<Home/>*/}
-            <Profile/>
-            <Footer/>
+            <Route path="/home">
+                <Home/>
+            </Route>
+            <Route path="/profile">
+                <Profile/>
+            </Route>
         </div>
     )
 };

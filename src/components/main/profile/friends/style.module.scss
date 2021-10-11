@@ -1,0 +1,59 @@
+@import "src/css/defaultColor";
+
+.friendsContainer {
+  max-width: 1200px;
+  margin: 0 auto 50px;
+
+  &.mini {
+    padding: 30px;
+    background: #fff;
+  }
+}
+
+.title {
+  padding: 10px;
+  position: relative;
+  border-bottom: 1px solid $whiteLight;
+  margin-bottom: 20px;
+
+  h3 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.friends {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.friendItem {
+  padding: 20px;
+  box-shadow: 0 1px 5px 0 rgba(51, 51, 51, .2);
+  display: flex;
+  align-items: center;
+  background: #fff;
+  cursor: pointer;
+  transition: .4s;
+
+  &:hover {
+    background: $red;
+    color: #fff;
+  }
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.3em;
+}

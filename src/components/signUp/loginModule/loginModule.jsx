@@ -12,7 +12,7 @@ let j = {
 };
 
 
-const LoginModule = (props) => {
+const LoginModule = () => {
     return (
         <div className={style.loginContainer}>
             <div className={style.loginDescription}>

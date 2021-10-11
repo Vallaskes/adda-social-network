@@ -1,0 +1,41 @@
+@import "src/css/defaultColor";
+
+.contain {
+  margin: 42px auto 40px;
+  max-width: 1200px;
+  background: #fff;
+  padding: 11px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-shadow: 0 1px 5px 0 rgba(51, 51, 51, .2);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.filter {
+  ul {
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+
+    li {
+      margin-right: 30px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: .3s;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover {
+        color: $red;
+      }
+    }
+  }
+}

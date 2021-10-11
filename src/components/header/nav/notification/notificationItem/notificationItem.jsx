@@ -1,20 +1,20 @@
 import React from "react";
 import style from "./notificationItem.module.scss";
 
-const NotificationItem = (props) => {
+const NotificationItem = ({imgSrc, userName, content, date}) => {
     return (
         <article className={style.notificationItem}>
             <div className={style.userAvatar}>
-                <img src={props.imgSrc} alt={`${props.userName} avatar`}/>
+                <img src={imgSrc} alt={`${userName} avatar`}/>
             </div>
             <div>
                 <div className={style.message}>
-                    <p>{props.content}</p>
+                    <p>{content}</p>
                 </div>
             </div>
             <div className={style.messageTime}>
-                <time pubdate dateTime={props.date}>
-                    {props.date}
+                <time pubdate dateTime={date}>
+                    {date}
                 </time>
             </div>
         </article>

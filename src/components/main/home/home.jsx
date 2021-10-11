@@ -124,7 +124,7 @@ let postItem = data.postItem.map( e =>
     />
 );
 
-const Home = (props) => {
+const Home = () => {
     return (
         <div className={style.homePage}>
             <SidebarLeft/>

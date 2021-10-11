@@ -1,0 +1,90 @@
+@import "src/css/defaultColor";
+
+.container {
+  max-width: 1200px;
+  padding: 30px;
+  margin: 0 auto 50px;
+  background: #fff;
+  box-shadow: 0 1px 5px 0 rgba(51, 51, 51, .2);
+}
+
+.aboutUser {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto 50px;
+}
+
+.navigationAbout {
+  background: #fff;
+  box-shadow: 0 1px 5px 0 rgba(51, 51, 51, .2);
+  padding: 30px;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd;
+      transition: .3s;
+
+      &:first-child {
+        padding: 0 0 10px;
+      }
+
+      &:last-child {
+        padding: 10px 0 0;
+        border-bottom: none;
+      }
+
+      &:hover {
+        color: $red;
+        border-bottom: 2px solid $red;
+      }
+    }
+  }
+}
+
+.textAbout {
+  background: #fff;
+  box-shadow: 0 1px 5px 0 rgba(51, 51, 51, .2);
+  padding: 30px;
+}
+
+.titleAbout {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.title {
+  padding: 10px;
+  position: relative;
+  border-bottom: 1px solid $whiteLight;
+  margin-bottom: 20px;
+
+  h3 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.item {
+  box-shadow: 0 1px 5px 0 rgba(51, 51, 51, .2);
+}
+
+.itemTitle {
+  padding: 10px;
+  text-align: center;
+}

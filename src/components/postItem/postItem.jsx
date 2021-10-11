@@ -1,16 +1,7 @@
 import style from "./postItem.module.scss";
-import {NavLink} from "react-router-dom";
 import React from "react";
 import Like from "../like/like";
-
-const dropdownMenu = (e) => {
-    let dm = e.target.parentNode.querySelector('div[data-dropdown]').dataset.dropdown;
-    if (dm === 'hidden') {
-        e.target.parentNode.querySelector('div[data-dropdown]').dataset.dropdown = 'visible'
-    } else {
-        e.target.parentNode.querySelector('div[data-dropdown]').dataset.dropdown = 'hidden';
-    }
-};
+import Conf from "../conf/conf";
 
 const PostItem = ({userAvatar, userName, time, postContent, uLike, qLike, like, qComment, qShare}) => {
     return (
@@ -25,20 +16,7 @@ const PostItem = ({userAvatar, userName, time, postContent, uLike, qLike, like, 
                         <time pubdate dateTime={time}>{time}</time>
                     </div>
                 </div>
-                <div className={style.postMenu}>
-                    <div onClick={dropdownMenu} className={style.postMenuButton}>
-                        <span/>
-                        <span/>
-                        <span/>
-                    </div>
-                    <div data-dropdown="hidden" className={style.postMenuNav}>
-                        <ul>
-                            <li><NavLink to="#">Copy Link To Adda</NavLink></li>
-                            <li><NavLink to="#">Edit Post</NavLink></li>
-                            <li><NavLink to="#">Embed Adda</NavLink></li>
-                        </ul>
-                    </div>
-                </div>
+                <Conf/>
             </header>
             <div className={style.postContent}>
                 <p>{postContent}</p>
