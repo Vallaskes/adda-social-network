@@ -7,7 +7,7 @@ import NotificationModal from "./notification/notificationModal";
 const HeaderNav = () => {
     return (
         <div className={style.headerNav}>
-            <Link className={style.link} to="/home">
+            <Link className={style.link} to="/">
                 Home
             </Link>
             <MessageModal textBtn="Message" text="Recent Message"/>

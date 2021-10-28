@@ -48,10 +48,6 @@ const Profile = () => {
                     )
                 }
             />
-            {/*<Timeline/>*/}
-            {/*<Photos title={false}/>*/}
-            {/*<Friends mini={true}/>*/}
-            <About/>
         </div>
     )
 };

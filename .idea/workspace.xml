@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4047fc00-e192-42ad-a3e7-33b8e56a00b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/conf/conf.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/conf/style.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/profile/about/about.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/profile/about/style.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/profile/doubleHead/doubleHead.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/profile/doubleHead/style.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/profile/friends/friends.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/profile/friends/style.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/profile/photos/photos.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/profile/photos/style.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/adda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/adda.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/nav/message/messageItem/messageItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/nav/message/messageItem/messageItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/nav/message/messageModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/nav/message/messageModal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/nav/notification/notificationItem/notificationItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/nav/notification/notificationItem/notificationItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/nav/nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/nav/nav.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/like/like.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/like/like.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/home/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/home/home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/profile/profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/profile/profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/profile/profileHead/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/profile/profileHead/style.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/postItem/postItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/postItem/postItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/postItem/postItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/postItem/postItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/signUp/loginModule/loginModule.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/signUp/loginModule/loginModule.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/signUp/signUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/signUp/signUp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +101,8 @@
       <workItem from="1632321439356" duration="107556000" />
       <workItem from="1633281098162" duration="21925000" />
       <workItem from="1633473508366" duration="30028000" />
-      <workItem from="1633872425762" duration="7556000" />
+      <workItem from="1633872425762" duration="9644000" />
+      <workItem from="1635358016377" duration="2310000" />
     </task>
     <task id="LOCAL-00001" summary="add module npm-sass and react-router-dom. use browser router in index.js">
       <created>1631450463632</created>
@@ -161,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633299927625</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="11.10.2021 20:12">
+      <created>1633972438297</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633972438297</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,14 +159,15 @@
     <MESSAGE value="22.09.2021" />
     <MESSAGE value="24.09.2021 02:48" />
     <MESSAGE value="04.10.2021 01:24" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.10.2021 01:24" />
+    <MESSAGE value="11.10.2021 20:12" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.10.2021 20:12" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-958" y="78" key="CommitChangelistDialog2" timestamp="1633299925125">
-      <screen x="-1280" y="0" width="1280" height="994" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1633972435242">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="-958" y="78" key="CommitChangelistDialog2/0.0.1366.738/-1280.0.1280.994@-1280.0.1280.994" timestamp="1633299925125" />
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1633299850996" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1633972435242" />
     <state x="317" y="147" key="EditFileWatcherDialog" timestamp="1632309089834">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -190,44 +176,45 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1633905211855" />
-    <state width="1323" height="121" key="GridCell.Tab.0.bottom" timestamp="1633872579756">
+    <state width="1323" height="121" key="GridCell.Tab.0.bottom" timestamp="1635419790623">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1237" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/-1280.0.1280.994@-1280.0.1280.994" timestamp="1633299943534" />
-    <state width="1323" height="121" key="GridCell.Tab.0.bottom/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1633872579756" />
-    <state width="1323" height="121" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1633804591686" />
-    <state width="1323" height="121" key="GridCell.Tab.0.center" timestamp="1633872579755">
+    <state width="1323" height="121" key="GridCell.Tab.0.bottom/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1635358872800" />
+    <state width="1323" height="121" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1635419790623" />
+    <state width="1323" height="121" key="GridCell.Tab.0.center" timestamp="1635419790622">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1237" height="182" key="GridCell.Tab.0.center/0.0.1366.738/-1280.0.1280.994@-1280.0.1280.994" timestamp="1633299943534" />
-    <state width="1323" height="121" key="GridCell.Tab.0.center/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1633872579755" />
-    <state width="1323" height="121" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1633804591686" />
-    <state width="1323" height="121" key="GridCell.Tab.0.left" timestamp="1633872579754">
+    <state width="1323" height="121" key="GridCell.Tab.0.center/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1635358872800" />
+    <state width="1323" height="121" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1635419790622" />
+    <state width="1323" height="121" key="GridCell.Tab.0.left" timestamp="1635419790621">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1237" height="182" key="GridCell.Tab.0.left/0.0.1366.738/-1280.0.1280.994@-1280.0.1280.994" timestamp="1633299943532" />
-    <state width="1323" height="121" key="GridCell.Tab.0.left/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1633872579754" />
-    <state width="1323" height="121" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1633804591686" />
-    <state width="1323" height="121" key="GridCell.Tab.0.right" timestamp="1633872579755">
+    <state width="1323" height="121" key="GridCell.Tab.0.left/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1635358872799" />
+    <state width="1323" height="121" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1635419790621" />
+    <state width="1323" height="121" key="GridCell.Tab.0.right" timestamp="1635419790622">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1237" height="182" key="GridCell.Tab.0.right/0.0.1366.738/-1280.0.1280.994@-1280.0.1280.994" timestamp="1633299943534" />
-    <state width="1323" height="121" key="GridCell.Tab.0.right/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1633872579755" />
-    <state width="1323" height="121" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1633804591686" />
+    <state width="1323" height="121" key="GridCell.Tab.0.right/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1635358872800" />
+    <state width="1323" height="121" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1635419790622" />
     <state x="184" y="11" key="SettingsEditor" timestamp="1633905217976">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="11" key="SettingsEditor/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1633905217976" />
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1633872423687">
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1635425167582">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1633872423687" />
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1631588375240" />
-    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1633972183375">
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1635425167582" />
+    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635425173538">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="-819" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738/-1280.0.1280.994@-1280.0.1280.994" timestamp="1632329491830" />
     <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1633972183375" />
+    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1635425173538" />
     <state x="479" y="-2" width="842" height="738" key="find.popup" timestamp="1633393505234">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
